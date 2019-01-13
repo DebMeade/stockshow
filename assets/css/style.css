@@ -25,6 +25,7 @@ h1 {
   font-family: 'Rye', cursive;
   color: #963F0C;
   text-transform: uppercase;
+  padding-top: 5px;
 }
 .bilbo {
 font-family: 'Bilbo Swash Caps', cursive;
@@ -58,8 +59,8 @@ body {
 }
 .nav {
   background-color: rgba(160, 136, 131, 0.295);
-  margin: 5px;
-  padding: 5px;
+  margin: 2px;
+  padding: 2px;
 }
 a:hover {
   color: #F88A42;
