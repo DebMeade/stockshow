@@ -1,0 +1,103 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/* Colors: 
+#F4C49D
+#A09A4F
+#963F0C
+#F88A42
+#A08883 */
+
+
+h1 {
+  font-family: 'Rye', cursive;
+  color: #963F0C;
+  text-transform: uppercase;
+}
+.bilbo {
+font-family: 'Bilbo Swash Caps', cursive;
+}
+h2 {
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #963F0C;
+  text-align: center;
+}
+h4 {
+  color: #963F0C;
+  padding-left: 20px;
+}
+.carousel-item {
+  height: 400px;
+  /* background-size: cover; */
+  background-position: bottom;
+  /* position: relative; */
+}
+body {
+  background: rgba(160, 136, 131, 0.4);
+}
+.navColor {
+  color: #963F0C;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 30px;
+}
+
+.nav-pills .pillBackground.active {
+  background-color: #F88A42;
+}
+.nav {
+  background-color: rgba(160, 136, 131, 0.295);
+  margin: 5px;
+  padding: 5px;
+}
+a:hover {
+  color: #F88A42;
+  font-weight: bold;
+}
+
+.allCaps {
+     font-family: 'Rye', cursive;
+    color: #963F0C;
+    text-transform: uppercase;
+ }
+.littleCaps {
+  font-family: 'Rye', cursive;
+  color: #963F0C;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.little {
+  font-family: 'Rye', cursive;
+  color: #963F0C;
+  /* text-transform: uppercase;
+  font-size: 28px; */
+}
+.card {
+  margin-bottom: 30px;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+}
+.card-body {
+  background-color: rgba(244, 196, 157, 0.3)
+}
+.btn {
+  background-color: rgba(160, 136, 131, 0.295);
+  color: #F88A42;
+}
+.card-title {
+  text-align: center;
+}
+a {
+  color: #F88A42;
+}
