@@ -102,3 +102,31 @@ a:hover {
 a {
   color: #F88A42;
 }
+.footer {
+  color: #963F0C;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 75px;
+  margin-top: 25px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  background-color: rgba(160, 136, 131, 0.295);
+  margin: 2px;
+  padding: 2px;
+  vertical-align: middle;
+}
+.largeFontFooter {
+  font-size: 24px;
+}
+.fab {
+  margin-right: 25px;
+  color: #963F0C;
+  vertical-align: middle;
+  /* margin-bottom: 5px; */
+}
+.contact {
+  color: #963F0C;
+  margin-left: 25px;
+  font-size: 24px;
+  /* font-weight: bold; */
+}
