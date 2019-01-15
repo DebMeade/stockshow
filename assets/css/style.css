@@ -25,7 +25,8 @@ h1 {
   font-family: 'Rye', cursive;
   color: #963F0C;
   text-transform: uppercase;
-  padding-top: 5px;
+  /* padding-top: 5px;
+  margin-left: 7.5%; */
 }
 .bilbo {
 font-family: 'Bilbo Swash Caps', cursive;
@@ -34,11 +35,20 @@ h2 {
   font-family: 'Bilbo Swash Caps', cursive;
   color: #963F0C;
   text-align: center;
+  margin-top: 20px;
 }
 h4 {
   color: #963F0C;
   padding-left: 20px;
 }
+/* .quote {
+  color: #963F0C;
+  font-family: 'Bilbo Swash Caps', cursive;
+  margin-left: 50%;
+  margin-top: -45px;
+  position: fixed;
+  float: right;
+} */
 .carousel-item {
   height: 400px;
   /* background-size: cover; */
@@ -114,13 +124,15 @@ a {
   margin: 2px;
   padding: 2px;
   vertical-align: middle;
+  margin-top: 20px;
 }
 .largeFontFooter {
   font-size: 24px;
 }
 .fab {
   margin-right: 25px;
-  color: #963F0C;
+  /* color: #963F0C; */
+  color: white;
   vertical-align: middle;
   /* margin-bottom: 5px; */
 }

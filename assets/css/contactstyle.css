@@ -1,0 +1,13 @@
+#mapid { 
+  height: 280px;
+}
+.contactLineHeight {
+  /* margin-left: 10px; */
+  /* font-family: 'Bilbo Swash Caps', cursive; */
+  line-height: 10px;
+}
+.footerContact {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
