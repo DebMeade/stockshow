@@ -41,14 +41,6 @@ h4 {
   color: #963F0C;
   padding-left: 20px;
 }
-/* .quote {
-  color: #963F0C;
-  font-family: 'Bilbo Swash Caps', cursive;
-  margin-left: 50%;
-  margin-top: -45px;
-  position: fixed;
-  float: right;
-} */
 .carousel-item {
   height: 400px;
   /* background-size: cover; */
@@ -86,7 +78,7 @@ a:hover {
   font-family: 'Rye', cursive;
   color: #963F0C;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 30px;
 }
 .little {
   font-family: 'Rye', cursive;
@@ -103,8 +95,8 @@ a:hover {
   background-color: rgba(244, 196, 157, 0.3)
 }
 .btn {
-  background-color: rgba(160, 136, 131, 0.295);
-  color: #F88A42;
+  background-color: #963F0C;
+  color: rgba(244, 196, 157, .8);
 }
 .card-title {
   text-align: center;
@@ -145,4 +137,39 @@ a {
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
+.item7 {
+  width: 100vw;
+  height: 400px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url("../images/IMG_2172\(edited2\).jpg")
+}
+.item8 {
+  width: 100vw;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../images/IMG_8131\(edited2\).jpg")
+}
+.item9 {
+  width: 100vw;
+  height: 400px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url("../images/IMG_8132\(edited2\).jpg")
+}
+.bold {
+  font-weight: bold;
+}
+.cardTextSires {
+  color: #963F0C;
+  letter-spacing: 1px;
+}
+.modal-title {
+  /* margin: 0 auto; */
+  margin-left: 30%;
 }
