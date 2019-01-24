@@ -65,7 +65,16 @@ body {
   padding: 2px;
 }
 a:hover {
-  color: #F88A42;
+  color: rgba(244, 196, 157, .8);
+  font-weight: bold;
+}
+a.contact:hover {
+  color: #963F0C;
+  font-weight: bold;
+}
+a.navColor:hover {
+  /* color: #F88A42; */
+  color: #963F0C;
   font-weight: bold;
 }
 
@@ -98,11 +107,18 @@ a:hover {
   background-color: #963F0C;
   color: rgba(244, 196, 157, .8);
 }
+.modalBtn {
+  color: rgba(244, 196, 157, .8);
+}
+.btn:hover {
+ color: rgba(244, 196, 157, .8);
+ font-weight: bold;
+}
 .card-title {
   text-align: center;
 }
 a {
-  color: #F88A42;
+  color: rgba(244, 196, 157, .8);
 }
 .footer {
   color: #963F0C;
@@ -171,5 +187,14 @@ html, body {
 }
 .modal-title {
   /* margin: 0 auto; */
-  margin-left: 30%;
+  /* margin-left: 30%; */
+  /* margin: auto; */
+  /* text-align: center; */
+  /* margin-left: 15%; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.modal-header {
+  display: flex;
+  justify-content: space-around;
 }
